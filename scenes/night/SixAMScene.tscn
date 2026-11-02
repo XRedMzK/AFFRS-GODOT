@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://f1rw30l5adxy"]
+
+[ext_resource type="Script" uid="uid://bk4f5lkv7cwur" path="res://scripts/night/SixAMScene.gd" id="1_6am"]
+
+[node name="SixAMScene" type="Node2D" unique_id=128363748]
+script = ExtResource("1_6am")

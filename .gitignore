@@ -1,0 +1,42 @@
+# Source-only repository: everything is private unless explicitly allowed below.
+# Keep assets, imports, builds, logs, export credentials and local settings out.
+/*
+
+!/.editorconfig
+!/.gitattributes
+!/.gitignore
+!/README.md
+!/project.godot
+
+!/scripts/
+/scripts/**
+!/scripts/**/
+!/scripts/**/*.gd
+!/scripts/**/*.gd.uid
+!/scripts/perf/README.md
+
+!/scenes/
+/scenes/**
+!/scenes/**/
+!/scenes/**/*.tscn
+
+!/shaders/
+/shaders/**
+!/shaders/**/
+!/shaders/**/*.gdshader
+!/shaders/**/*.gdshader.uid
+
+!/tools/
+/tools/**
+!/tools/export_source.py
+
+# Local/generated directories stay excluded even inside a source directory.
+**/.*/
+**/__pycache__/
+**/assets/
+**/android/
+**/build/
+**/dist/
+
+# Stale UID: its corresponding source file no longer exists.
+/scripts/__MenuSmoke.gd.uid
